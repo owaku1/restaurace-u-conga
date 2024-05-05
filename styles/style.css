@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.kontakty {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+    gap: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu-item {
+      flex-direction: row;
+    }
+    .menu-item h3 {
+        display: flex;
+        position: absolute;
+        margin-bottom: 300px;
+    }
+}
+
+.menu-item-details {
+    border-radius: 8px;
+    border: 1px solid black; 
+    margin-bottom: 20px;
+    width: 300px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(229, 255, 0);
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    align-content: center;
+    padding: 20px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: rgb(229, 255, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #b6b6b6;
+    margin: auto;
+}
+
+button {
+    width: 50px;
+    background-color: navajowhite;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.springrolls {
+    background-image: url('/imgs/Fresh-Spring-Rolls-15.jpg');
+}
+
+.edamame {
+    background-image: url('/imgs/edamame.jpg');
+}
+
+.gyoza {
+    background-image: url('/imgs/Gyoza-3096-II.jpg');
+}
+
+.mochi {
+    background-image: url('/imgs/Mochi-Ice-Cream-8.jpg');
+}
+
+.padthai {
+    background-image: url('/imgs/pad-thai-1200x1483.jpg');
+}
+
+.sushi {
+    background-image: url('/imgs/sushi-platter-1.jpg');
+}
+
+.kungpao {
+    background-image: url('/imgs/Kung-Pao-Chicken-16-1200x1480.jpg');
+}
+
+.beef {
+    background-image: url('/imgs/images\ \(2\).jpg');
+}
+
+.chickenteriyaki {
+    background-image: url('/imgs/chicken-teriyaki-1200x1553.jpg');
+}
+
+.horkypes {
+    background-image: url('/imgs/pess.png');
+}
+
+.menu-item-description {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item-description p {
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 75px;
+    font-size: 36px;
+}
